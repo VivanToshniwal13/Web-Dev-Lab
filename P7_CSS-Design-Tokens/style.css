@@ -1,0 +1,7 @@
+:root{--ink:#192536;--primary:#3157a4;--accent:#e28b45;--surface:#f2f5fa;--space-1:.5rem;--space-2:1rem;--space-3:2rem;--radius:14px;--step-1:clamp(2rem,5vw,3.5rem)}
+*{box-sizing:border-box}body{margin:0;background:var(--surface);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.65}
+header,main{max-width:850px;margin:auto;padding:var(--space-3)}h1{font-size:var(--step-1);line-height:1.1}
+.eyebrow{color:var(--primary);letter-spacing:.16em;font-weight:700}.lead{font-size:1.2rem}
+.swatches{display:flex;gap:var(--space-2);flex-wrap:wrap}.swatches div{padding:2rem;border-radius:var(--radius);background:var(--primary);color:white}
+.swatches div:nth-child(2){background:var(--accent)}.swatches div:nth-child(3){background:white;color:var(--ink)}
+button{background:var(--primary);color:white;border:0;border-radius:var(--radius);padding:.9rem 1.3rem;font:inherit}

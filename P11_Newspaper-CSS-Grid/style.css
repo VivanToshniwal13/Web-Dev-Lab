@@ -1,0 +1,8 @@
+:root{font-family:Georgia,serif;color:#242424;background:#f2eee5}body{margin:0}
+.masthead{text-align:center;padding:2rem 1rem;border-bottom:4px double #222}.masthead p{letter-spacing:.18em;font:.8rem system-ui}.masthead h1{font-size:clamp(2rem,6vw,4rem);margin:.2rem}
+.newspaper{max-width:1150px;margin:2rem auto;padding:0 1.5rem;display:grid;grid-template-columns:2fr 1fr 1fr;gap:2rem}
+.newspaper article{padding:1rem;border-right:1px solid #bbb}.newspaper article:last-child{border:0}.lead h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.05}
+.newspaper h2{line-height:1.15}.kicker{font:700 .75rem system-ui;letter-spacing:.15em;color:#9a4e2d}.summary{font-size:1.2rem}
+.art{height:180px;background:linear-gradient(135deg,#273f57,#b4c5bd,#d8a16c);margin:1rem 0}
+footer{text-align:center;padding:1.5rem;border-top:4px double #222;font:.8rem system-ui;letter-spacing:.15em}
+@media(max-width:750px){.newspaper{grid-template-columns:1fr}.newspaper article{border-right:0;border-bottom:1px solid #bbb}}
